@@ -4,8 +4,10 @@ import questionsData from './data/questions.json';
 import QuestionCard from './components/QuestionCard';
 import QuizControls from './components/QuizControls';
 import { Target, Trophy, RotateCcw } from 'lucide-react';
+import LoginScreen from './components/LoginScreen';
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [questions, setQuestions] = useState([]);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState({}); // Map of questionId -> selectedOption
@@ -72,6 +74,10 @@ function App() {
       setCurrentQuestionIndex(0);
     }
   };
+
+  if (!isAuthenticated) {
+    return <LoginScreen onLogin={() => setIsAuthenticated(true)} />;
+  }
 
   if (questions.length === 0) {
     return (
