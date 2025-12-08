@@ -1,0 +1,3377 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following is the warfare category in which viruses, worms, Trojan horses, or sniffers are used to make systems shut down automatically, corrupt data, steal information or services, send fraudulent messages, and access unauthorized data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Psychological warfare",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hacker warfare",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "C2 warfare",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Electronic warfare",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following types of hackers compromise systems by running scripts, tools, and software developed by real hackers and usually focus on the quantity rather than the quality of the attacks they initiate?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Suicide hackers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Cyber terrorists",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "State-sponsored hackers",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Script kiddies",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 3,
+    "question": "James, a professional hacker, is performing an attack on a target organization. He gathered information about the target and identified vulnerabilities in the target network. He is now exploiting the vulnerabilities to enter the target’s network and escalate privileges to have complete access to the target system. Which of the following phases of hacking is James currently in?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Reconnaissance",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Gaining access",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Maintaining access",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Nick, a security professional, was tasked with performing intrusion analysis on an organization's compromised network. For this purpose, Nick employed the diamond model of intrusion analysis. As part of the analysis, Nick determined the event's periodicity and documented the event's occurrence details. These details helped him correlate similar events and trace the duration of the attack on the target network. Identify the event meta-feature of the diamond model implemented by Nick in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Phase",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Direction",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Resource",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Timestamp",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "question": "The four key steps of the risk management phase are given below. 1) Risk treatment 2) Risk tracking and review 3) Risk assessment 4) Risk identification What is the correct sequence of steps involved in the risk management phase?",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 2 → 3 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2 → 1 → 3 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "4 → 3 → 1 → 2",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "3 → 4 → 2 → 1",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "question": "Which security strategy requires using several diverse methods to protect IT systems against attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Defense in depth",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Three-way handshake",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Covert channels",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Exponential backoff algorithm",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following titles of SOX consists of four sections: defines practices to restore investor confidence in securities analysts; defines the SEC’s authority to censure or bar securities professionals from practice; and defines the conditions to bar a person from practicing as a broker, advisor, or dealer?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Title V: Analyst Conflicts of Interest",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Title VI: Commission Resources and Authority",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Title VII: Studies and Reports",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Title III: Corporate Responsibility",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "In which of the following footprinting threats does an attacker collect information directly and indirectly through persuasion without using any intrusion methods?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Social engineering",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Corporate espionage",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Business loss",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "System and network attacks",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 9,
+    "question": "Smith, a professional hacker, has targeted an organization. He employed footprinting tools to scan through all the domains, subdomains, reachable IP addresses, DNS records, and Whois records to perform further attacks. What is the type of information Smith has extracted through the footprinting attempt?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Physical security information",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Policy information",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Network information",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Company’s product information",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following search engine tools helps an attacker use an image as a search query and track the original source and details of images, such as photographs, profile pictures, and memes?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Intelius",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sublist3r",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "TinEye",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Mention",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following tools is a command-line search tool for Exploit-DB that allows taking a copy of the Exploit database for remote use?",
+    "options": [
+      {
+        "label": "A",
+        "text": "SearchSploit",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Spyse",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Spokeo",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "DroidSniff",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 12,
+    "question": "Given below is the command generated by ShellGPT to gather email accounts associated with the target organiza theHarvester -d microsoﬅ.com -l 200 -b Baidu -f Microsoﬅ_emails.xml Which of the following parameters from the above command is used to specify the data source for gathering email accounts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "theHarvester",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "-d microsoﬅ.com",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "-b baidu",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "-l 200",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following utilities is used by Recon-Dog to detect technologies existing in the target system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Whois lookup",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "findsubdomains.com",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "shodan.io",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "wappalyzer.com",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following should NOT be followed when securing an organization from footprinting attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Opting for privacy services on the Whois lookup database",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Educating employees to use pseudonyms on blogs, groups, and forums",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ensuring that critical information is not revealed in press releases, annual reports, product catalogs, and so on.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Enabling the geo-tagging functionality on cameras",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "question": "Which of the following TCP communication flags notifies the transmission of a new sequence number and represents the establishment of a connection between two hosts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "FIN flag",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "SYN flag",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "PSH flag",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "RST flag",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "Jane, an a -powered technologies to enhance and automate her network scanning tasks. She uses ShellGPT to perform various Hping3 scans to acquire valuable insights about her target. Jane wants to perform a speciﬁc type of scan that sends echo requests to the target IP address and stops aﬅer a ﬁxed number of itera Which of the following commands should Jane use to achieve her goal?",
+    "options": [
+      {
+        "label": "A",
+        "text": "hping3 --icmp --count 10 10.10.1.11",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "hping3 -S 10.10.1.11 -p 80 --tcp-",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "hping3 -1 10.0.1.11 --rand-dest –I eth0",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "hping3 --ack -p 80 10.10.1.11",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "A security engineer is attempting to scan a company’s internal network to verify the security policies of their networks. The engineer uses the NMAP command: nmap –n – sS –P0 –p 80 ***.***.**.**. What type of scan is this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quick scan",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Intense scan",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Stealth scan",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Comprehensive scan",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following IDS/firewall evasion techniques is used by an attacker to bypass Internet censors and evade certain IDS and firewall rules?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IP address decoy",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sending bad checksums",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Source port manipulation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Anonymizers",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following Nmap commands helps a target IP addresses listed in a ﬁle?",
+    "options": [
+      {
+        "label": "A",
+        "text": "nmap -iL scan1.txt -O --script=default --script-args=newtargets -oN os_discovery_results.txt",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "nmap -p80 -- -waf-detect --script-args= - wafdetect.uri=/testphp.v wafdetect.detectBodyChanges” www.modsecurity.org",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "nmap -- -passwd --script- -passwd.root =/target IP address",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "nmap -p 23 –script telnet-brute.nse –script-args userdb=/root/Desktop/user.txt,passdb=/root/Desktop/pass.txt <target IP>",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following countermeasures are used to avoid banner grabbing attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Never display false banners to mislead or deceive attackers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Turn on unnecessary services on the network host to limit information disclosure",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Use ServerMask tools to disable or change banner information",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Enable the details of the vendor and version in the banners",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following tools provides complete visibility, real-time detection, and intelligent response to malicious network scanning attempts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Orbot",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "CyberGhost VPN",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "ExtraHop",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "WinHex",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 22,
+    "question": "Which of the following protocols uses TCP port 179 to enable routers to establish sessions between them?",
+    "options": [
+      {
+        "label": "A",
+        "text": "LDAP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "BGP",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "SIP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SNMP",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "question": "Which of the following NetBIOS service codes is used to obtain information related to the master browser name for the subnet?",
+    "options": [
+      {
+        "label": "A",
+        "text": "<03>",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "<1E>",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "<1D>",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "<20>",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "question": "Robert, a professional hacker, was tasked with retrieving critical information from a target network. For this purpose, Robert employed a command-line tool to fetch information from all the network sub-nodes, such as routers and switches, in the form of an object identifier (OID), which is part of the management information base (MIB). Identify the tool employed by Robert in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Spokeo",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tor Browser",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Factiva",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SnmpWalk",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 25,
+    "question": "Which of the following ntpdate parameters is used by an attacker to perform a function that can force the time to always be slewed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "-b",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "-B",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "-d",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "–q",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following commands allows an attacker to list all the SMTP commands available in the nmap directory?",
+    "options": [
+      {
+        "label": "A",
+        "text": "nmap -T4 -p 53 --script dns-brute <Target Domain>",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "nmap -p 25 -script=smtp-open-relay <Target IP Address>",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "nmap -p 25 –script=smtp-enum-users <Target IP Address>",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "nmap -p 25, 365, 587 -script=smtp-commands <Target IP Address >",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following Nmap commands is used by an attacker to enumerate the SMB service running on the target IP address?",
+    "options": [
+      {
+        "label": "A",
+        "text": "# nmap -sR <target IP/network>",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "# nmap -p 445 -A <target IP>",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "# nmap -p 23 --script telnet-ntlm-info <target IP>",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "# nmap -sV -v --script nbstat.nse <target IP address>",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following practices allows attackers to execute external SNMP enumeration attempts on the target network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Regularly audit the network traffic.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Encrypt credentials using the “AuthNoPriv” mode.",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Never change the default or current passwords.",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Avoid using the “NoAuthNoPriv” mode.",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 29,
+    "question": "Which of the following online resources helps an attacker in performing vulnerability research?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AOL",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MITRE CVE",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "EZGif",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "GNUnet",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following types of software vulnerability occurs due to coding errors and allows attackers to gain access to the target system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Open services",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Unpatched servers",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Buffer overflow",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Misconfiguration",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 31,
+    "question": "John, a security analyst, was tasked with providing a comprehensive assessment report on a newly discovered vulnerability. He used the CVSS scoring system and paid a to specific metrics that provide vulnerability. Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "Base metric",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Threat metric",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Environmental metric",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Supplemental metric",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following tools will scan a network to perform vulnerability checks and compliance auditing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Netcraft",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "DNSdumpster",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Nessus",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Tor Browser",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "question": "Mary, a security professional, was tasked with enhancing the organiza security. For this purpose, she deployed an AI-powered automated vulnerability detec vulner Iden Mary deployed in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "SCEMU",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Akamai DDoS Protec",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Colasoﬅ Packet Builder",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SmartScanner",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 34,
+    "question": "Below is the command ShellGPT generated to perform automated vulnerability scanning tasks. nmap -sV –script=vuln www.moviescope.com -oN output.txt Which part of the above command is used to specify the ﬁlename where the scan results will be saved?",
+    "options": [
+      {
+        "label": "A",
+        "text": "nmap",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "--script=vuln",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "-oN output.txt",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "www.moviescope.com",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 35,
+    "question": "Which of the following types of stack memory register stores the address of the next instruction to be executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "ESP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "EDI",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "EIP",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ESI",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "question": "Given below are the various steps involved in performing a GPU-based attack. 1. When the victim installs the malware-loaded application, the malware starts accessing the browser’s OpenGL API. 2. When the victim accesses any website via the browser, attackers can copy every character entered by the victim on the password field of the website. 3. The malware on OpenGL API sets up a spy on the device to track activities on the browser. 4. The attacker lures or forces the victim into visiting an insecure site or downloading a malware-loaded application on their system. Identify the correct sequence of steps.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 3 → 2 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "3 → 2 → 4 → 1",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "4 → 1 → 3 → 2",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 → 1 → 3 → 4",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "question": "Iden passwords while perfor",
+    "options": [
+      {
+        "label": "A",
+        "text": "nc -nv <Target IP> <Target Port>",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "john --wordlist=</path_to/rockyou.txt> --rules --stdout > <path_to/output_wordlist.txt>",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "john --show /path/to/ntlm_hashes.txt",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "hashcat -a 3 -m 0 md5_hasheshashcat -a 3 -m 0 md5_hashes.txt -1 ?l?u ?1?l?l?l19?d?ds-1 ?l?u",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following techniques is the best defensive measure against privilege escalation?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Run users and applications with the highest privileges",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Run services as privileged accounts",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Restrict interactive logon privileges",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Increase the privileges of users and groups",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 39,
+    "question": "In which of the following steganography attacks does an attacker perform probability analysis to test whether a given stego-object and original data are the same?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Chosen-message",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Chi-square",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Known-cover",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Distinguishing statistical",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following commands allows an attacker with administrator privileges to hide any file or folder in a Windows system?",
+    "options": [
+      {
+        "label": "A",
+        "text": "attrib +h +s +r <FolderName>",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "net user <UserName> /add",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "net user <UserName> /active:no",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "mkdir .HiddenMaliciousFiles",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following malware components is a piece of software that can conceal the existence of malware and be used to elude antivirus detection?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Dropper",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Crypter",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Injector",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Packer",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following techniques involves leveraging features of regularly used applica commands?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Memory code injec",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": " -malicious ﬁles",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Malicious websites",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Na",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 43,
+    "question": "Which of the following indicators helps the security analysts iden -based malware presence in the organiza",
+    "options": [
+      {
+        "label": "A",
+        "text": "Op",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Stable rate of f",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Use of uncommon ports or protocols",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Securit",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following Windows Service Manager (SrvMan) commands is used to install and start a legacy driver with a single call?",
+    "options": [
+      {
+        "label": "A",
+        "text": "srvman.exe add <file.exe/file.sys> [service name] [display name] [/type:<service type>] [/start:<start mode>] [/interactive:no] [/overwrite:yes]",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "srvman.exe delete <service name>",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "srvman.exe restart <service name> [/delay:<delay in msec>]",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "srvman.exe run <driver.sys> [service name] [/copy:yes] [/overwrite:no] [/stopafter:<msec>]",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 45,
+    "question": "Asher, a security analyst, was tasked with analyzing a recent malware incident at an organization. For this purpose, Asher employed a malware analysis platform that scans files, URLs, end points, and memory dumps. It helped Asher extract strings from the malware samples and identify whether those strings were used in other files. Identify the tool employed by Asher in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "xHelper",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "cSploit",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Intezer",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Network Spoofer",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 46,
+    "question": "Which of the following file dependencies is a networking DLL that helps connect to a network or perform network-related tasks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Kernel32.dll",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Advapi32.dll",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "WSock32.dll",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Ntdll.dll",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following practices helps security analysts defend an organizational network against Trojan attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do not check the SSL authenticity before accessing any e-commerce website.",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Avoid clicking on unsolicited pop-ups and banners.",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Download and execute applications from untrusted sources.",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Enable the autorun option for external devices such as USB drives and hard drives.",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 48,
+    "question": "Which of the following protocols allows a user’s workstation to access mail from a mailbox server and send mail from the workstation to the mailbox server via SMTP?",
+    "options": [
+      {
+        "label": "A",
+        "text": "POP",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "HTTP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SMTP",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "In which of the following ARP poisoning threats does an attacker manipulate a client’s connection to take complete control of the network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Data manipulation",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Connection resetting",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Man-in-the-middle attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Connection hijacking",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 50,
+    "question": "Which of the following measures should NOT be followed to prevent DNS spoofing attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Allow outgoing traffic to use UDP port 53 as a default source port",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Resolve all DNS queries to a local DNS server",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Implement an intrusion detection system (IDS) and deploy it correctly",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Maintain a single or specific range of IP addresses to login to the systems",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 51,
+    "question": "Karbon, a professional hacker, targeted an organization to bypass the network traffic. For this purpose, he used a network forensic analysis tool that can monitor and extract information from network traffic as well as capture application data contained in the network traffic. Which of the following tools did Karbon utilize in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "AnDOSid",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Xplico",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Akamai",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Vindicate",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following countermeasure should be followed to defend against sniffing?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Allow physical access to network media",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Turn on network identification broadcasts",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Retrieve MAC addresses directly from NICs instead of the OS",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Use dynamic IP addresses and ARP tables",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 53,
+    "question": "An ethical hacker is performing penetration testing on the target organization. He decided to test the organization’s network to identify the systems running in promiscuous mode. Identify the tool that the ethical hacker needs to employ.",
+    "options": [
+      {
+        "label": "A",
+        "text": "FaceNiff",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "FOCA",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Nmap",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Recon-ng",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "question": "Below are the different phases of a social engineering attack. 1) Develop a relationship 2) Research the target company 3) Select a target 4) Exploit the relationship Identify the correct sequence of steps involved in a social engineering attack.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 2 → 3 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "2 → 1 → 3 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2 → 3 → 1 → 4",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 → 4 → 3 → 1",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 55,
+    "question": "Which of the following techniques does an attacker use to snoop on the communication between users or devices and record private information to launch passive attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Session hijacking",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Privilege escalation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Spoofing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Eavesdropping",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following social engineering techniques involves dynamically changing a webpage's content to mimic a browser panel?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Tabnabbing",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Spear phishing",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Clone phishing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Piggybacking",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "question": "In which of the following a learning algorithms to convincingly mimic an individual's tone, intona style?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Clone phishing",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Voice cloning",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "PRINCE a",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Markov-chain a",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "question": "Which of the following is a generic exploit designed to perform advanced attacks against human elements to compromise a target to offer sensitive information?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NetScanTools Pro",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Wireshark",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Social-Engineer Toolkit (SET)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Cain and Abel",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 59,
+    "question": "Which of the following pr cloning a",
+    "options": [
+      {
+        "label": "A",
+        "text": "Establish policies and procedures for verifying the iden - based intera",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Use an -spooﬁng technologies and techniques to detect and prevent the use of fake or synthe",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Use unencrypted communica",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Implement voice biometrics or other advanced authen the authen -based communica",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 60,
+    "question": "Remin, a professional hacker, targeted an organization and attempted to propagate malicious code. In this process, he placed an attack toolkit on his own system, and a copy of the attack toolkit was transferred to a newly discovered vulnerable system in the organization’s network. Which of the following techniques did Remin employ in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Back-chaining propagation",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Autonomous propagation",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Central source propagation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Spyware propagation",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 61,
+    "question": "Which of the following scanning methods makes use of the information obtained from an infected machine to find new vulnerable machines in a target network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Topological scanning",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Permutation scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hit-list scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Random scanning",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 62,
+    "question": "In which of the following attacks does an attacker use a combination of volumetric, protocol, and application-layer attacks to take down a target system or service?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Slowloris attack",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Peer-to-peer attack",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Multi-vector attack",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "HTTP GET/POST attack",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 63,
+    "question": "Fiona, an attacker, targeted an organization to diminish their network bandwidth. In this process, she used an attack technique in which zombies send large volumes of traffic to the victim’s systems to exhaust the network, application, or service resources, thereby restricting access to legitimate employees. Which of the following types of attack did Fiona perform in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Smurf attack",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Flood attack",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Amplification attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Peer-to-peer attack",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 64,
+    "question": "Sarah is facing one of the biggest challenges in her career—she has to design the early warning DDoS detection techniques for her employer. She starts developing the detection technique which uses signal analysis to detect anomalies. The technique she is employing analyzes network traffic in terms of spectral components where she divides the incoming signals into various frequencies and analyzes different. Which DDoS detection technique is she trying to implement?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Wavelet-based signal analysis",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Activity profiling",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Change-point detection",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "NetFlow detection",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 65,
+    "question": "Scarlet, a security professional at Imperial Tech, received intermittent complaints from her colleagues about service unavailability, diminishing network bandwidth, and suspended network services. She recognized that these issues were due to DoS/DDoS attacks. To curb the occurrence of such issues in the future, she used a service that enabled high-end protection from these severe DoS/DDoS attacks. Which of the following DoS/DDoS protection services did Scarlet use in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Fritzing",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Stormwall PRO",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Suphacap",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "KillerBee",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 66,
+    "question": "In which of the following session hijacking phases does an attacker break the connection to a victim’s machine with knowledge of the next sequence number (NSN)?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Monitor",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Session desynchronization",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Session ID prediction",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Command injection",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 67,
+    "question": "In which of the following levels of the OSI model does an attacker gain control over the HTTP user session and create new unauthorized sessions by using the stolen data?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Application level",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Network level",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Presentation level",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Physical level",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 68,
+    "question": "In one of the following attacks, an attacker exploits the vulnerabilities present in the data compression feature of protocols, such as SSL/TLS, SPDY, and HTTPS, and hijacks the session by decrypting secret session cookies. Which is this attack?",
+    "options": [
+      {
+        "label": "A",
+        "text": "CRIME attack",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Proxy servers",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Session donation attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Forbidden attack",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "question": "Below are the various steps involved in the PetitPotam hijacking attack. 1. Now, the attacker initiates an NTLM replay attack to gain remote access to the target AD CS. 2. The attacker uses the EfsRpcOpenFileRaw command from MS-EFSRPC API to coerce the target server to perform NTLM authentication of another system. 3. The attacker uses the already captured NTLM credentials to authenticate with the target server. 4. Finally, the attacker creates an AD certificate to gain administrator privileges to the target AD server. Identify the correct sequence of steps involved in the PetitPotam hijacking.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 2 → 3 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "3 → 1 → 2 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "3 → 2 → 1 → 4",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 → 3 → 1 → 4",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 70,
+    "question": "Julie, a cybercriminal, intercepts communica c false information into the stream, changing the applica Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "UDP hijacking",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "UDP ﬂooding",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Shoulder surﬁng",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dumpster diving",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 71,
+    "question": "Which of the following guidelines should be implemented to protect connections against session hijacking?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Use the same usernames and passwords for different accounts",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Pass authentication cookies over HTTP connections",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Include the session ID in the URL or query string",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Use strings or long random numbers as session keys",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following attributes in a packet can be used to check whether the packet originated from an unreliable zone?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Direction",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Interface",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "TCP flag bits",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Source IP address",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 73,
+    "question": "Which of the following is a malware research tool that allows security analysts to detect and classify malware or other malicious codes through a rule-based approach?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nmap",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "YARA",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Hping3",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Fing",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 74,
+    "question": "An organization’s web application firewall (WAF) allows specific queries and syntaxes that originate from their internal addresses. Jack, a professional hacker, exploited this functionality to send spoofed requests to trick the target WAF and server into believing that the request originated from their internal network. Jack also appended various extensions such as X-Originating-IP, X-Forwarded-For, X-Remote-IP, and X-Remote-Addr to the spoofed requests to bypass the target WAF. Identify the technique employed by Jack to bypass the target WAF.",
+    "options": [
+      {
+        "label": "A",
+        "text": "ARP spoofing",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "MAC spoofing",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "VLAN hopping",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "HTTP header spoofing",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 75,
+    "question": "Given below are the various steps involved in crea CPLResourceRunner: 1. Run the following command to encode the contents of shellcode.txt into Base64 format and prepare it for inclusion in a resource ﬁle: cat shellcode.txt |sed ‘s/[, ]//g; s/0x//g;’ |tr -d ‘\\n’ |xxd -p -r |gzip -c |base64 > b64shellcode.txt 2. Use Cobalt Strike to generate a fully staged payload in x86 format, saving it as a beacon bin. 3. Copy the encoded content from b64shellcode.txt to the Resources.txt ﬁle in the same folder. 4. Collect the resources in x86 format and copy the CPLResourceRunner.dll into a new ﬁle named maliciousnew.cpl 5. Execute ConvertShellcode.py on beacon.bin to convert it into useful shellcode saved as shellcode.txt. Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 3 → 4 → 2 → 5",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "3 → 5 → 1 → 2 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "2 → 5 → 1 → 3 → 4",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 → 1 → 3 → 5 → 4",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 76,
+    "question": "Which of the following techniques manipulates the TCP/IP stack and is effectively employed to slow down the spread of worms and backdoors?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Layer 4 tar pits",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Layer 2 tar pits",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Layer 7 tar pits",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Honeyd honeypot",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following practices helps security professionals defend their organiza network against IDS evasion attempts?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Never use a traffic normalizer to remove potential ambiguity from the packet stream",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Do not store the attack information for future analysis",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Look for 0x90 other than nop opcode to defend against the polymorphic shellcode problem",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Ensure that the packets are arriving from a path secured with IDS",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 78,
+    "question": "Lisa, a senior developer, was tasked with se load on the backend servers and speed up response copies of requested content and serve frequently accessed content directly from temporary storage. Which of the following Nginx components should Lisa conﬁgure to achieve this?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Master Process",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Worker Processes",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Proxy Cache",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Applica",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 79,
+    "question": "In which of the following attack types does an attacker flood an application with an excess amount of data so that the application may crash or exhibit vulnerable behavior?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Directory traversal",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Parameter/form tampering",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Denial-of-service attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Buffer overflow attack",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 80,
+    "question": "Given below is the command generated by ShellGPT to perform a brute-force a an FTP server: hydra -L/usr/share/wordlists/ﬅp-usernames.txt -p /usr/share/wordlists/ﬅp- passwords.txt ﬅp://10.10.1.11 Which of the following elements from the above command is used to specify the ﬁle containing the c -force a",
+    "options": [
+      {
+        "label": "A",
+        "text": "-P",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hydra",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "-L",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "ﬅp://10.10.1.11",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 81,
+    "question": "An attacker wants to perform a session hijacking attack. What tool should he use to achieve his objective?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nessus",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hydra",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Burp Suite",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Netcraft",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 82,
+    "question": "Iden traceroute, and nslookup, but also conducts sta servers.",
+    "options": [
+      {
+        "label": "A",
+        "text": "BuzzSumo",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Sherlock",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Uniscan",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "BCTextEncoder",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 83,
+    "question": "Which of the following techniques is NOT a countermeasure to defend against web server attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Install IIS server on a domain controller",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Secure the SAM",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Relocate sites and virtual directories to non-system partitions",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Use a dedicated machine as a web server",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 84,
+    "question": "Which of the following components of the web service architecture is an extension of SOAP and can be used to maintain the integrity and confidentiality of SOAP messages?",
+    "options": [
+      {
+        "label": "A",
+        "text": "UDDI",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "WSDL",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "WS-Security",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "WS-Policy",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 85,
+    "question": "One of the following is a clickjacking technique in which an attacker creates an iframe of 1 × 1 pixels containing malicious content placed secretly under the mouse cursor. When the user clicks on this cursor, it will be registered on a malicious page. Which is this clickjacking technique?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Complete transparent overlay",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Hidden overlay",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Click event dropping",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Rapid content replacement",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 86,
+    "question": "Fred, a cybercriminal, targets an e-commerce website with outdated soﬅware to steal customer data. He exploits vulner -party plugins to gain and embeds malicious JavaScript on the checkout page, capturing customers’ credit card details during checkout and tr Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "Birthday a",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Rainbow table a",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Magecart a",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Padding oracle a",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 87,
+    "question": "Dennis, a security analyst, was analyzing unauthorized tran -commerce applica diﬀerent geographic loca n's user veriﬁca Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "Bypass client-side controls",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Signature bypass",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Bypassing IDOR via parameter po",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Bypass mul",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 88,
+    "question": "Which of the following protocols provides transport-level security for API messages to ensure conﬁden through encryption and integrity through signature?",
+    "options": [
+      {
+        "label": "A",
+        "text": "NTP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "IMAP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "SSL",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 89,
+    "question": "Iden craﬅed request to an unexpected des VPN.",
+    "options": [
+      {
+        "label": "A",
+        "text": "Unrestricted resource consump",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Server-side request forgery",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Broken authen",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unsafe c",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 90,
+    "question": "In which of the following SQL inje malicious content into web pages, or alter the contents of a database?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Authoriza",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Compromised data integrity",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Remote code exec",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Compromised availability of data",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 91,
+    "question": "In which of the following a into an original query to make the DBMS execut",
+    "options": [
+      {
+        "label": "A",
+        "text": "Piggybacked query",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Illegal/logically incorrect query",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "System stored procedure",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Tautology",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 92,
+    "question": "Which of the following tools can allow an a HTTPS requests sent by the browser, as well as the responses from server?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Hoverwatch",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Tamper Dev",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Elcomsoﬅ Distributed Password Recovery",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "KeyGrabber",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 93,
+    "question": "Which of the following is a Snort rule that is used to detect and block an SQL injection attack?",
+    "options": [
+      {
+        "label": "A",
+        "text": "' OR 5 BETWEEN 1 AND 7",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "UNION Select Password",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "SqlDataAdapter myCommand = new SqlDataAdapter(\"LoginStoredProcedure '\" + Login.Text +\"'\", conn);",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "/(\\%27)|(\\')|(\\-\\-)|(\\%23)|(#)/ix",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 94,
+    "question": "In one of the following methods, an attacker attempts to replicate error-free naviga by injecting simple inputs such as ' and '1' = '1 Or ' and '1' = '2 and forces an application to generate application errors that reveal information such as table names, column names, and data types. Which is this method?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Determining a SELECT query structure",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Determining the database engine type",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Parameter tampering",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Type mismatch",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "question": "In which of the following evasion techniques does an attacker use a WHERE statement that is always evaluated as “true” so that any mathematical or string comparison can be used, such as “' or '1'='1'”?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Variations",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Declare variables",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Case variation",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Null byte",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 96,
+    "question": "Which of the following is a communication standard that is also known as WiMAX and is designed to provide multiple physical layer (PHY) and MAC options?",
+    "options": [
+      {
+        "label": "A",
+        "text": "802.15.1",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "802.16",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "802.11n",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "802.11g",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "question": "Which of the following Wi-Fi security protocols uses GCMP-256 for encryption and HMAC-SHA-384 for authentication?",
+    "options": [
+      {
+        "label": "A",
+        "text": "PEAP",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "WEP",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "CCMP",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "WPA3",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 98,
+    "question": "Which of the following is a type of access-control attack in which an attacker uses any USB adapter or wireless card and connects a host to an unsecured client to attack a specific client or to avoid AP security?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ad hoc association",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Promiscuous client",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Client mis-association",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Unauthorized association",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following attack techniques is used by an attacker to send forged control, management, or data frames over a wireless network to misdirect wireless devices and perform other types of attacks such as DoS?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Confidentiality attack",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Availability attack",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Authentication attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Integrity attack",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 100,
+    "question": "Which of the following tools is used by an attacker to create rogue APs and perform sniﬃng and MITM attacks?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Halberd",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Gobuster",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Skyhook",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MANA Toolkit",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following techniques is used by network management software to detect rogue APs?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RF scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Wired side inputs",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "AP scanning",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Virtual-private network",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 102,
+    "question": "In which of the following techniques can an a “netstat -p | grep <pid>” command to get informa",
+    "options": [
+      {
+        "label": "A",
+        "text": "Disassemble the targeted app package",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Monitoring logs",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "List out the open c",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Signing and installing malicious APK",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 103,
+    "question": "Chris, a professional hacker, was tasked with obtaining credentials and certificates from a target iOS device. For this purpose, Chris employed a tool to extract secrets such as passwords, certificates, and encryption keys from the target iOS device’s storage system. Identify the tool Chris used in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "N-Stalker X",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "ScanMyServer",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Keychain Dumper",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "CORE Impact",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "question": "Which of the following is the correct BYOD security guideline that an employee should follow to secure sensitive personal or corporate information stored on a mobile device?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Provide offline access to the organization’s sensitive information",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Disable session authentication and the timeout policy on the access gateway",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Do not allow jailbroken and rooted devices",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Never control access based on a need-to-know basis",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 105,
+    "question": "Which of the following risks can be addressed using secure coding pr validated third-party libraries?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Insecure authen",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Inadequate supply chain security",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Inadequate privacy controls",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Insuﬃcient input/output valida",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 106,
+    "question": "John, an employee of an organization, always connects to the corporate network using his own mobile device. Which of the following best practices prevents BYOD risk when John connects to the corporate network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Improperly disposing of a device",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Not reporting a lost or stolen device",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Providing support for many different devices",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Separating personal and private data",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 107,
+    "question": "Which of the following commands helps a applica",
+    "options": [
+      {
+        "label": "A",
+        "text": "r2 frida://usb//iGoat-Swiﬅ",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "frida-ps -Uai",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "\\e~search",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "rvictl -s <UDID of the iOS device>",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 108,
+    "question": "Which of the following protocols is a type of LAN that consists of a wired connection between computers in a small building, office, or campus?",
+    "options": [
+      {
+        "label": "A",
+        "text": "MQTT",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "LTE-Advanced",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Li-Fi",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Ethernet",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 109,
+    "question": "If an attacker wants to gather information such as IP address, hostname, ISP, device’s location, and the banner of the target IoT device, which of the following tools should he use to do so?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Nmap",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Shodan",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "RIoT vulnerability scanner",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Foren6",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 110,
+    "question": "Encrypted communications, strong authentication credentials, secure web interface, encrypted storage, and automatic updates are the security considerations for which of the following components?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Mobile",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Cloud platform",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Edge",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Gateway",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "question": "Smith, a professional hacker, was attempting to gain access to a target ICS network. To achieve his goal, he initiated reconnaissance to gather information about the devices in the network, their IP addresses, hostnames, and other details. Which of the following techniques did Smith employ in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "IP address decoy",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Password guessing",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Hooking",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Identifying remote systems",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 112,
+    "question": "Which of the following Nmap commands helps attackers identify the HMI systems in a target OT network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "nmap -Pn -sT -p 46824 <Target IP>",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "nmap -Pn -sT -p 102 --script s7-info <Target IP>",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "nmap -Pn -sU -p 44818 --script enip-info <Target IP>",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "nmap -Pn -sT -p 1911,4911 --script fox-info <Target IP>",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 113,
+    "question": "Which of the following practices helps security professionals defend against attacks on the OT environment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Install and maintain endpoint protec",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Enable unused servic",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Avoid using password hashing",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Avoid using DMZ connec",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 114,
+    "question": "Through which of the following Kubernetes vulnerabilities can an attacker exploit the kube-apiserver with the disabled debug mode to directly interact with it and perform various malicious activities?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Exposed bearer tokens in logs",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Log rotation is not atomic",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "No back-off process for scheduling",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "No non-repudiation",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 115,
+    "question": "Alex, a cloud security engineer, wants to list the c company's AWS cloud environment during a security assessment. Alex runs a command to get details about all the Iden",
+    "options": [
+      {
+        "label": "A",
+        "text": "aws ec2 describe-volumes",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "aws ec2 describe-instances",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "aws ec2 describe-snapshots",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "aws ec2 describe-hosts",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 116,
+    "question": "Which of the following Azure CLI cmdlets allows attackers to create a folder and store the function’s results to be executed?",
+    "options": [
+      {
+        "label": "A",
+        "text": "New-Item -Name \"microburst_output\" -ItemType \"directory\"",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "Import-Module .\\MicrosBurst.psm1",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Get-AzDomainInfo -Verbose -Folder microburst-output",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "explorer microburst-output",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 117,
+    "question": "Which of the following commands helps an attacker view predefined roles or custom roles in the target Google Cloud environment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "gcloud iam roles list [--show-deleted] [--organization=<organization>] [-- project=<project_id>]",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "gcloud sql databases list --instance=<instance_name>",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "prowler aws --profile custom-profile --filter-region <region_1> <region_2>",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "kubectl get services",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 118,
+    "question": "lex, a cloud security engineer, is tasked with enhancing the security of his organization's container orchestration system. As part of his job, he uses a tool for vulnerability scanning to identify potential security issues specific to this environment. Identify the tool used by Alex in the above scenario.",
+    "options": [
+      {
+        "label": "A",
+        "text": "pwncat",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Kubescape",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Dependency Walker",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Dylib Hijack Scanner",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 119,
+    "question": "Which of the following best practices should be followed for securing a cloud environment?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Do not disclose applicable logs and data to customers",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Allow unauthorized server access using security checkpoints",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Do not enforce legal contracts in employee behavior policy",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Verify one’s cloud in public domain blacklists",
+        "isCorrect": true
+      }
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 120,
+    "question": "In one of the following types of cipher, letters in plaintext are rearranged according to a regular system to produce ciphertext. Which is this type of cipher?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Substitution cipher",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Block cipher",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Transposition cipher",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Stream cipher",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 121,
+    "question": "Which of the following is optimized for confidential communications, such as bidirectional voice and video?",
+    "options": [
+      {
+        "label": "A",
+        "text": "RC4",
+        "isCorrect": true
+      },
+      {
+        "label": "B",
+        "text": "RC5",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "MD4",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "MD5",
+        "isCorrect": false
+      }
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 122,
+    "question": "Given below are the various steps involved in performing multilayer hashing using CyberChef: 1. Click on the \"Open file as input\" option to upload the sample file. 2. Based on these requirements, select another hashing algorithm using the output of the SHA1 hash as the input and perform hashing recursively, as shown in the screenshot. 3. Search for the desired hashing algorithm in the Operations panel (e.g., MD5), and drag and drop it into the Recipe panel. The output is shown in the Output panel. 4. Create a sample file and open the CyberChef (https://gchq.github.io/CyberChef). 5. Using the MD5 hash value as the input, select another hashing algorithm (e.g., SHA1) and drag and drop it into the Recipe panel. Identify the correct sequence of steps involved in performing multilayer hashing using CyberChef.",
+    "options": [
+      {
+        "label": "A",
+        "text": "1 → 3 → 5 → 4 → 2",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "3 → 5 → 1 → 2 → 4",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "4 → 1 → 3 → 5 → 2",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "2 → 4 → 1 → 3 → 5",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 123,
+    "question": "Which of the following is an example of a private blockchain where a supervisor or central authority decides who can join and participate in the blockchain network?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Ethereum",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "IBM Food Trust",
+        "isCorrect": false
+      },
+      {
+        "label": "C",
+        "text": "Ripple (XRP)",
+        "isCorrect": true
+      },
+      {
+        "label": "D",
+        "text": "Bitcoin",
+        "isCorrect": false
+      }
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 124,
+    "question": "Which of the following cryptanalysis methods is also known as a plaintext attack, is based on finding affine approximations to the action of a cipher, and is commonly used on block ciphers?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Differential cryptanalysis",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Linear cryptanalysis",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Integral cryptanalysis",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Frequency analysis",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 125,
+    "question": "David, a professional hacker, targets a high-security quantum cryptographic system by embedding malicious quantum components within the network. These components covertly gather and transmit sensitive information to David, allowing him to bypass the system's security without directly attacking the quantum algorithms. Which of the following attacks did David perform in the above scenario?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Quantum bit-flipping attack",
+        "isCorrect": false
+      },
+      {
+        "label": "B",
+        "text": "Quantum Trojan horse attack",
+        "isCorrect": true
+      },
+      {
+        "label": "C",
+        "text": "Quantum supply chain attack",
+        "isCorrect": false
+      },
+      {
+        "label": "D",
+        "text": "Quantum error correction mechanism exploitation",
+        "isCorrect": false
+      }
+    ],
+    "answer": "B"
+  }
+]
