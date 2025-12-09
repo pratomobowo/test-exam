@@ -27,16 +27,46 @@ function App() {
 
   const initializeQuestions = (shouldShuffle) => {
     // Determine valid questions (must have an answer)
-    const validQuestions = questionsData.filter(q => q.answer && q.options.length > 0);
+    // Deep copy to avoid mutating original data
+    const validQuestions = JSON.parse(JSON.stringify(questionsData.filter(q => q.answer && q.options.length > 0)));
 
     if (shouldShuffle) {
       // Shuffle questions using Fisher-Yates algorithm
-      const shuffled = [...validQuestions];
-      for (let i = shuffled.length - 1; i > 0; i--) {
+      const shuffledQuestions = [...validQuestions];
+      for (let i = shuffledQuestions.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
       }
-      setQuestions(shuffled);
+
+      // Shuffle options for each question
+      const shuffledWithOptions = shuffledQuestions.map(q => {
+        const shuffledOptions = [...q.options];
+        for (let i = shuffledOptions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+        }
+
+        // Re-assign labels (A, B, C, D...) and update answer
+        let newAnswer = "";
+        const newOptions = shuffledOptions.map((opt, index) => {
+          const newLabel = String.fromCharCode(65 + index); // 65 is 'A'
+          if (opt.isCorrect) {
+            newAnswer = newLabel;
+          }
+          return {
+            ...opt,
+            label: newLabel
+          };
+        });
+
+        return {
+          ...q,
+          options: newOptions,
+          answer: newAnswer || q.answer
+        };
+      });
+
+      setQuestions(shuffledWithOptions);
     } else {
       setQuestions(validQuestions);
     }
