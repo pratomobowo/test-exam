@@ -59,7 +59,12 @@ $('.pdf24_02').each((pageIndex, pageEl) => {
                 }
             });
 
-            text = text.trim().replace(/\s+/g, ' ');
+            text = text.trim().replace(/\s+/g, ' ')
+                .replace(/ﬁ/g, 'fi')
+                .replace(/ﬂ/g, 'fl')
+                .replace(/ﬅ/g, 'ft')
+                .replace(/ﬄ/g, 'ffl')
+                .replace(/ﬃ/g, 'ffi');
 
             if (text) {
                 const elementHtml = $(el).html();

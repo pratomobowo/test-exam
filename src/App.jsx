@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import questionsData from './data/questions.json';
 import QuestionCard from './components/QuestionCard';
 import QuizControls from './components/QuizControls';
-import { Target, Trophy, RotateCcw } from 'lucide-react';
+import { Target, Trophy, RotateCcw, Shuffle } from 'lucide-react';
 import LoginScreen from './components/LoginScreen';
 
 function App() {
@@ -13,20 +13,34 @@ function App() {
   const [selectedOptions, setSelectedOptions] = useState({}); // Map of questionId -> selectedOption
   const [submittedAnswers, setSubmittedAnswers] = useState({}); // Map of questionId -> boolean (isSubmitted)
   const [score, setScore] = useState(0);
+  const [isShuffled, setIsShuffled] = useState(false);
 
   useEffect(() => {
+    // Check for existing session
+    const storedAuth = localStorage.getItem('ceh_exam_auth');
+    if (storedAuth === 'true') {
+      setIsAuthenticated(true);
+      // Initialize with default shuffle state (false)
+      initializeQuestions(false);
+    }
+  }, []);
+
+  const initializeQuestions = (shouldShuffle) => {
     // Determine valid questions (must have an answer)
     const validQuestions = questionsData.filter(q => q.answer && q.options.length > 0);
 
-    // Shuffle questions using Fisher-Yates algorithm
-    const shuffled = [...validQuestions];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    if (shouldShuffle) {
+      // Shuffle questions using Fisher-Yates algorithm
+      const shuffled = [...validQuestions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+      }
+      setQuestions(shuffled);
+    } else {
+      setQuestions(validQuestions);
     }
-
-    setQuestions(shuffled);
-  }, []);
+  };
 
   const handleOptionSelect = (optionLabel) => {
     const currentQuestion = questions[currentQuestionIndex];
@@ -66,17 +80,37 @@ function App() {
     }
   };
 
-  const handleReset = () => {
+  const handleReset = (shouldShuffle = isShuffled) => {
     if (confirm("Are you sure you want to reset your progress?")) {
       setSelectedOptions({});
       setSubmittedAnswers({});
       setScore(0);
       setCurrentQuestionIndex(0);
+      initializeQuestions(shouldShuffle);
     }
   };
 
+  const toggleShuffle = () => {
+    const newShuffleState = !isShuffled;
+    setIsShuffled(newShuffleState);
+
+    // Reset and re-initialize with new shuffle state
+    setSelectedOptions({});
+    setSubmittedAnswers({});
+    setScore(0);
+    setCurrentQuestionIndex(0);
+    initializeQuestions(newShuffleState);
+  };
+
+
+  const handleLogin = () => {
+    localStorage.setItem('ceh_exam_auth', 'true');
+    setIsAuthenticated(true);
+    initializeQuestions(false); // Default to not shuffled on fresh login
+  };
+
   if (!isAuthenticated) {
-    return <LoginScreen onLogin={() => setIsAuthenticated(true)} />;
+    return <LoginScreen onLogin={handleLogin} />;
   }
 
   if (questions.length === 0) {
@@ -125,7 +159,15 @@ function App() {
 
             <div className="h-6 sm:h-8 w-px bg-slate-200"></div>
 
-            <button onClick={handleReset} className="p-1.5 sm:p-2 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors active:bg-slate-200" title="Reset Quiz">
+            <button
+              onClick={toggleShuffle}
+              className={`p-1.5 sm:p-2 rounded-full transition-colors active:bg-slate-200 ${isShuffled ? 'text-blue-600 bg-blue-50 hover:bg-blue-100' : 'text-slate-400 hover:text-slate-600 hover:bg-slate-100'}`}
+              title={isShuffled ? "Disable Shuffle" : "Enable Shuffle"}
+            >
+              <Shuffle className="w-4 h-4 sm:w-5 sm:h-5" />
+            </button>
+
+            <button onClick={() => handleReset(isShuffled)} className="p-1.5 sm:p-2 text-slate-400 hover:text-slate-600 rounded-full hover:bg-slate-100 transition-colors active:bg-slate-200" title="Reset Quiz">
               <RotateCcw className="w-4 h-4 sm:w-5 sm:h-5" />
             </button>
           </div>

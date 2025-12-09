@@ -59,8 +59,8 @@ export default function LoginScreen({ onLogin }) {
                             }}
                             placeholder="Enter Password"
                             className={`w-full px-4 py-3 rounded-xl border outline-none transition-all ${error
-                                    ? 'border-red-500 focus:ring-4 focus:ring-red-500/10 bg-red-50 text-red-900 placeholder-red-400'
-                                    : 'border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 bg-slate-50 text-slate-900 hover:bg-white focus:bg-white'
+                                ? 'border-red-500 focus:ring-4 focus:ring-red-500/10 bg-red-50 text-red-900 placeholder-red-400'
+                                : 'border-slate-200 focus:border-blue-500 focus:ring-4 focus:ring-blue-500/10 bg-slate-50 text-slate-900 hover:bg-white focus:bg-white'
                                 }`}
                             autoFocus
                         />

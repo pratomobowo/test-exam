@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Click on the \"Open file as input\" option to upload the sample file.",
+    "question": "Which of the following is the warfare category in which viruses, worms, Trojan horses, or sniffers are used to make systems shut down automatically, corrupt data, steal information or services, send fraudulent messages, and access unauthorized data?",
     "options": [
       {
         "label": "A",
@@ -28,7 +28,7 @@
   },
   {
     "id": 2,
-    "question": "Based on these requirements, select another hashing algorithm using the output of the SHA1 hash as the input and perform hashing recursively, as shown in the screenshot.",
+    "question": "Which of the following types of hackers compromise systems by running scripts, tools, and software developed by real hackers and usually focus on the quantity rather than the quality of the attacks they initiate?",
     "options": [
       {
         "label": "A",
@@ -55,7 +55,7 @@
   },
   {
     "id": 3,
-    "question": "Search for the desired hashing algorithm in the Operations panel (e.g., MD5), and drag and drop it into the Recipe panel. The output is shown in the Output panel.",
+    "question": "James, a professional hacker, is performing an attack on a target organization. He gathered information about the target and identified vulnerabilities in the target network. He is now exploiting the vulnerabilities to enter the target’s network and escalate privileges to have complete access to the target system. Which of the following phases of hacking is James currently in?",
     "options": [
       {
         "label": "A",
@@ -82,7 +82,7 @@
   },
   {
     "id": 4,
-    "question": "Create a sample file and open the CyberChef (https://gchq.github.io/CyberChef).",
+    "question": "Nick, a security professional, was tasked with performing intrusion analysis on an organization's compromised network. For this purpose, Nick employed the diamond model of intrusion analysis. As part of the analysis, Nick determined the event's periodicity and documented the event's occurrence details. These details helped him correlate similar events and trace the duration of the attack on the target network. Identify the event meta-feature of the diamond model implemented by Nick in the above scenario.",
     "options": [
       {
         "label": "A",
@@ -109,26 +109,26 @@
   },
   {
     "id": 5,
-    "question": "Using the MD5 hash value as the input, select another hashing algorithm (e.g., SHA1) and drag and drop it into the Recipe panel. Identify the correct sequence of steps involved in performing multilayer hashing using CyberChef.",
+    "question": "The four key steps of the risk management phase are given below. 1. Risk treatment 2. Risk tracking and review 3. Risk assessment 4. Risk identification What is the correct sequence of steps involved in the risk management phase?",
     "options": [
       {
         "label": "A",
-        "text": "1 → 3 → 5 → 4 → 2",
+        "text": "1 → 2 → 3 → 4",
         "isCorrect": false
       },
       {
         "label": "B",
-        "text": "3 → 5 → 1 → 2 → 4",
+        "text": "2 → 1 → 3 → 4",
         "isCorrect": false
       },
       {
         "label": "C",
-        "text": "4 → 1 → 3 → 5 → 2",
+        "text": "4 → 3 → 1 → 2",
         "isCorrect": true
       },
       {
         "label": "D",
-        "text": "2 → 4 → 1 → 3 → 5",
+        "text": "3 → 4 → 2 → 1",
         "isCorrect": false
       }
     ],
@@ -946,7 +946,7 @@
   },
   {
     "id": 36,
-    "question": "Given below are the various steps involved in performing a GPU-based attack.",
+    "question": "Given below are the various steps involved in performing a GPU-based attack. 1. When the victim installs the malware-loaded application, the malware starts accessing the browser’s OpenGL API. 2. When the victim accesses any website via the browser, attackers can copy every character entered by the victim on the password field of the website. 3. The malware on OpenGL API sets up a spy on the device to track activities on the browser. 4. The attacker lures or forces the victim into visiting an insecure site or downloading a malware-loaded application on their system. Identify the correct sequence of steps.",
     "options": [
       {
         "label": "A",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": 54,
-    "question": "Below are the different phases of a social engineering attack.",
+    "question": "Below are the different phases of a social engineering attack. 1. Develop a relationship 2. Research the target company 3. Select a target 4. Exploit the relationship Identify the correct sequence of steps involved in a social engineering attack.",
     "options": [
       {
         "label": "A",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": 69,
-    "question": "Below are the various steps involved in the PetitPotam hijacking attack.",
+    "question": "Below are the various steps involved in the PetitPotam hijacking attack. 1. Now, the attacker initiates an NTLM replay attack to gain remote access to the target AD CS. 2. The attacker uses the EfsRpcOpenFileRaw command from MS-EFSRPC API to coerce the target server to perform NTLM authentication of another system. 3. The attacker uses the already captured NTLM credentials to authenticate with the target server. 4. Finally, the attacker creates an AD certificate to gain administrator privileges to the target AD server. Identify the correct sequence of steps involved in the PetitPotam hijacking.",
     "options": [
       {
         "label": "A",
@@ -1999,7 +1999,7 @@
   },
   {
     "id": 75,
-    "question": "Given below are the various steps involved in creating malicious CPL files using CPLResourceRunner:",
+    "question": "Given below are the various steps involved in creating malicious CPL files using CPLResourceRunner: 1. Run the following command to encode the contents of shellcode.txt into Base64 format and prepare it for inclusion in a resource file: cat shellcode.txt |sed ‘s/[, ]//g; s/0x//g;’ |tr -d ‘\\n’ |xxd -p -r |gzip -c |base64 > b64shellcode.txt 2. Use Cobalt Strike to generate a fully staged payload in x86 format, saving it as a beacon bin. 3. Copy the encoded content from b64shellcode.txt to the Resources.txt file in the same folder. 4. Collect the resources in x86 format and copy the CPLResourceRunner.dll into a new file named maliciousnew.cpl 5. Execute ConvertShellcode.py on beacon.bin to convert it into useful shellcode saved as shellcode.txt. Identify the correct sequence of steps involved in creating malicious CPL files.",
     "options": [
       {
         "label": "A",
@@ -3111,17 +3111,17 @@
       {
         "label": "A",
         "text": "New-Item -Name \"microburst_output\" -ItemType \"directory\"",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "B",
         "text": "Import-Module .\\MicrosBurst.psm1",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "C",
         "text": "Get-AzDomainInfo -Verbose -Folder microburst-output",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "D",
@@ -3138,17 +3138,17 @@
       {
         "label": "A",
         "text": "gcloud iam roles list [--show-deleted] [--organization=<organization>] [--project=<project_id>]",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "B",
         "text": "gcloud sql databases list --instance=<instance_name>",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "C",
         "text": "prowler aws --profile custom-profile --filter-region <region_1> <region_2>",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "label": "D",
@@ -3268,7 +3268,7 @@
   },
   {
     "id": 122,
-    "question": "Given below are the various steps involved in performing multilayer hashing using CyberChef:",
+    "question": "Given below are the various steps involved in performing multilayer hashing using CyberChef: 1. Click on the \"Open file as input\" option to upload the sample file. 2. Based on these requirements, select another hashing algorithm using the output of the SHA1 hash as the input and perform hashing recursively, as shown in the screenshot. 3. Search for the desired hashing algorithm in the Operations panel (e.g., MD5), and drag and drop it into the Recipe panel. The output is shown in the Output panel. 4. Create a sample file and open the CyberChef (https://gchq.github.io/CyberChef). 5. Using the MD5 hash value as the input, select another hashing algorithm (e.g., SHA1) and drag and drop it into the Recipe panel. Identify the correct sequence of steps involved in performing multilayer hashing using CyberChef.",
     "options": [
       {
         "label": "A",
