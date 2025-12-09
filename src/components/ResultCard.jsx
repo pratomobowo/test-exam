@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Trophy, XCircle, RotateCcw, CheckCircle } from 'lucide-react';
 
 const ResultCard = ({ score, totalQuestions, onRetry }) => {
-    const isPass = score > 79;
-    const percentage = Math.round((score / totalQuestions) * 100);
+    const finalScore = Math.round((score / totalQuestions) * 100);
+    const isPass = finalScore > 79;
 
     return (
         <div className="w-full max-w-2xl mx-auto bg-white rounded-2xl shadow-lg border border-slate-200 overflow-hidden text-center p-8 sm:p-12">
@@ -27,8 +26,8 @@ const ResultCard = ({ score, totalQuestions, onRetry }) => {
             <div className="bg-slate-50 rounded-xl p-6 mb-8 max-w-xs mx-auto border border-slate-100">
                 <div className="text-sm text-slate-500 uppercase font-bold tracking-wider mb-1">Total Score</div>
                 <div className={`text-4xl sm:text-5xl font-black mb-2 ${isPass ? 'text-green-600' : 'text-red-600'}`}>
-                    {score}
-                    <span className="text-xl sm:text-2xl text-slate-400 font-medium ml-1">/ {totalQuestions}</span>
+                    {finalScore}
+                    <span className="text-xl sm:text-2xl text-slate-400 font-medium ml-1">/ 100</span>
                 </div>
                 <div className={`inline-block px-3 py-1 rounded-full text-sm font-semibold ${isPass ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
                     {isPass ? 'LULUS (PASS)' : 'TIDAK LULUS (FAIL)'}
