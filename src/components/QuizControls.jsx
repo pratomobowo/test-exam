@@ -8,9 +8,12 @@ const QuizControls = ({
     onNext,
     onPrev,
     onSubmit,
+    onFinish,
     showFeedback,
     hasSelectedOption
 }) => {
+    const isLastQuestion = currentQuestionIndex === totalQuestions - 1;
+
     return (
         // Mobile: Floating bar (bottom-4 inset-x-4)
         // Desktop: Full width bar (sm:bottom-0 sm:inset-x-0)
@@ -42,14 +45,18 @@ const QuizControls = ({
                             >
                                 Submit <span className="hidden sm:inline ml-1">Answer</span>
                             </button>
+                        ) : isLastQuestion ? (
+                            <button
+                                onClick={onFinish}
+                                className="w-full sm:w-auto flex items-center justify-center px-6 py-3 sm:py-2.5 rounded-xl font-semibold shadow-sm transition-all bg-green-600 text-white hover:bg-green-700 hover:shadow-md active:scale-[0.98]"
+                            >
+                                Finish <span className="hidden sm:inline ml-1">Exam</span>
+                                <ArrowRight className="w-5 h-5 ml-2" />
+                            </button>
                         ) : (
                             <button
                                 onClick={onNext}
-                                disabled={currentQuestionIndex === totalQuestions - 1}
-                                className={`w-full sm:w-auto flex items-center justify-center px-6 py-3 sm:py-2.5 rounded-xl font-semibold shadow-sm transition-all ${currentQuestionIndex === totalQuestions - 1
-                                    ? 'bg-slate-100 text-slate-400 cursor-not-allowed'
-                                    : 'bg-slate-900 text-white hover:bg-slate-800 hover:shadow-md active:scale-[0.98]'
-                                    }`}
+                                className="w-full sm:w-auto flex items-center justify-center px-6 py-3 sm:py-2.5 rounded-xl font-semibold shadow-sm transition-all bg-slate-900 text-white hover:bg-slate-800 hover:shadow-md active:scale-[0.98]"
                             >
                                 Next <span className="hidden sm:inline ml-1">Question</span>
                                 <ArrowRight className="w-5 h-5 ml-2" />

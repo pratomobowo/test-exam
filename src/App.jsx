@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import questionsData from './data/questions.json';
 import QuestionCard from './components/QuestionCard';
 import QuizControls from './components/QuizControls';
+import ResultCard from './components/ResultCard';
 import { Target, Trophy, RotateCcw, Shuffle } from 'lucide-react';
 import LoginScreen from './components/LoginScreen';
 
@@ -14,6 +15,7 @@ function App() {
   const [submittedAnswers, setSubmittedAnswers] = useState({}); // Map of questionId -> boolean (isSubmitted)
   const [score, setScore] = useState(0);
   const [isShuffled, setIsShuffled] = useState(false);
+  const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
     // Check for existing session
@@ -111,11 +113,12 @@ function App() {
   };
 
   const handleReset = (shouldShuffle = isShuffled) => {
-    if (confirm("Are you sure you want to reset your progress?")) {
+    if (showResults || confirm("Are you sure you want to reset your progress?")) {
       setSelectedOptions({});
       setSubmittedAnswers({});
       setScore(0);
       setCurrentQuestionIndex(0);
+      setShowResults(false);
       initializeQuestions(shouldShuffle);
     }
   };
@@ -130,6 +133,10 @@ function App() {
     setScore(0);
     setCurrentQuestionIndex(0);
     initializeQuestions(newShuffleState);
+  };
+
+  const handleFinish = () => {
+    setShowResults(true);
   };
 
 
@@ -213,24 +220,35 @@ function App() {
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 py-8 md:py-12">
-        <QuestionCard
-          question={currentQuestion}
-          selectedOption={selectedOptions[currentQuestion.id]}
-          onOptionSelect={handleOptionSelect}
-          showFeedback={isQuestionSubmitted}
-        />
+        {showResults ? (
+          <ResultCard
+            score={score}
+            totalQuestions={questions.length}
+            onRetry={() => handleReset(isShuffled)}
+          />
+        ) : (
+          <QuestionCard
+            question={currentQuestion}
+            selectedOption={selectedOptions[currentQuestion.id]}
+            onOptionSelect={handleOptionSelect}
+            showFeedback={isQuestionSubmitted}
+          />
+        )}
       </main>
 
       {/* Footer Controls */}
-      <QuizControls
-        currentQuestionIndex={currentQuestionIndex}
-        totalQuestions={questions.length}
-        onNext={handleNext}
-        onPrev={handlePrev}
-        onSubmit={handleSubmit}
-        showFeedback={isQuestionSubmitted}
-        hasSelectedOption={!!selectedOptions[currentQuestion.id]}
-      />
+      {!showResults && (
+        <QuizControls
+          currentQuestionIndex={currentQuestionIndex}
+          totalQuestions={questions.length}
+          onNext={handleNext}
+          onPrev={handlePrev}
+          onSubmit={handleSubmit}
+          onFinish={handleFinish}
+          showFeedback={isQuestionSubmitted}
+          hasSelectedOption={!!selectedOptions[currentQuestion.id]}
+        />
+      )}
     </div>
   );
 }
